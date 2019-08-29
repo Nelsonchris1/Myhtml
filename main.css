@@ -1,0 +1,258 @@
+html, body{
+  margin:0px;
+  padding:0px;
+  width:100%;
+  font-size:15px;
+  font-family:century gothic;
+}
+div, p, h1, h2, h3, h4, h5, ul, li, a, span{
+  margin:0px;
+  padding:0px;
+}
+.clear{
+  clear:both;
+}
+#container-id{
+  width:100%;
+}
+/*MENU*/
+#container-menu{
+
+}
+.menu{
+  width:100%;
+  background-color:white;
+  box-shadow: 2px 2px 12px 2px rgba(0, 0, 0, 0.2);
+  margin:auto;
+  text-align:center;
+  position:fixed;
+  z-index:999;
+}
+.menu ul{
+  width:100%;
+  margin:auto;
+  padding:15px 0px;
+}
+.menu li{
+  display:inline-block;
+  padding:5px;
+}
+.menu a{
+  text-decoration:none;
+  color:black;
+  background-color:#DDD;
+  transition:0.4s;
+  padding:5px 25px;
+}
+.menu a:hover{
+  text-decoration:none;
+  color:#999;
+  background-color:#FFF;
+  transition:0.4s;
+}
+/*HOME*/
+#container-home{
+  width:100%;
+  background:url(clay.jpg) fixed 100% no-repeat;
+  background-size:cover;
+  padding:159.5px 0px 100px 0px;
+  text-align:center;
+}
+.home{
+  width:100%;
+}
+.home h1{
+  font-weight:100;
+  font-size:50px;
+  color:#EEE;
+  padding:0px 0px 5px 0px;
+}
+/*OBJECTIVE*/
+#container-objective{
+  padding:100px 0px;
+}
+.objective{
+  max-width:960px;
+  width:100%;
+  margin:auto;
+}
+.profil-photo{
+  width:50%;
+  float:left;
+}
+.profil-photo img{
+  width:90%;
+}
+.objective-text{
+  width:50%;
+  float:left;
+  position:relative;
+}
+.objective-text h2{
+  padding-bottom:15px;
+  font-size:25px;
+  font-weight:100;
+  text-transform:uppercase;
+}
+.objective-text p{
+padding-bottom:75px;
+text-align:justify;
+}
+.objective-text a{
+  position:absolute;
+  bottom:0px;
+  left:0px;
+  text-decoration:none;
+  color:black;
+  background-color:#DDD;
+  transition:0.4s;
+  padding:5px 25px;
+  border:1px solid white;
+}
+.objective-text a:hover{
+  text-decoration:none;
+  color:#999;
+  border:1px solid #999;
+  background-color:#FFF;
+  transition:0.4s;
+}
+/*SKILLS*/
+#container-skills{
+  padding:100px 0px;
+  background-color:#EEE;
+}
+.skills{
+  max-width:960px;
+  width:100%;
+  margin:auto;
+}
+.title h2{
+  padding-bottom:25px;
+  font-size:25px;
+  font-weight:100;
+  text-align:center;
+  text-transform:uppercase;
+}
+.title p{
+padding-bottom:75px;
+text-align:justify;
+width:100%;
+margin:auto;
+}
+.bardiv{
+  width:100%;
+  margin:auto;
+}
+.bardiv h3{
+  font-size:20px;
+  padding-bottom:5px;
+}
+.progressbar{
+  width:100%;
+  margin:auto;
+  height:5px;
+  background-color:#AAA;
+  position:relative;
+  margin-bottom:15px;
+}
+.progressbar span{
+  height:5px;
+  background-color:#000;
+  z-index:888;
+  position:absolute;
+  top:0px;
+  left:0px;
+}
+.python{
+  width:80%;
+}
+.java{
+  width:60%;
+}
+.html{
+  width:50%;
+}
+.css{
+  width:50%;
+}
+.sql{
+  width:80%;
+}
+/*education*/
+#container-education{
+  padding:100px 0px;
+}
+.education{
+  max-width:960px;
+  width:100%;
+  margin:auto;
+  text-align:center;
+}
+
+.education h2{
+  padding-bottom:50px;
+  font-size:25px;
+  font-weight:100;
+  text-transform:uppercase;
+}
+.othereducation{
+  padding-left:25px;
+  padding-bottom:25px;
+}
+.othereducation h3{
+  font-size:20px;
+  padding-bottom:5px;
+  font-weight:100;
+}
+.othereducation h4{
+  font-size:17px;
+  padding-bottom:5px;
+  font-weight:100;
+  color:#999;
+}
+
+#container-reference{
+    padding:100px 0px;
+  }
+.reference{
+    max-width:960px;
+    width:100%;
+    margin:auto;
+    text-align:center;
+}
+
+.reference h2{
+    padding-bottom:50px;
+    font-size:25px;
+    font-weight:100;
+    text-transform:uppercase;
+}
+
+.otherreference{
+    padding-left:25px;
+    padding-bottom:25px;
+}
+
+.otherreference h3{
+    font-size:20px;
+    padding-bottom:5px;
+    font-weight:100;
+  }
+
+#container-footer{
+  padding:10px 0px;
+  background-color:#000;
+  color:#FFF;
+  text-align:center;
+}
+.footer a{
+  color:#FFF;
+  text-decoration:none;
+  padding-top:50px;
+  transition:0.4s;
+}
+.footer a:hover{
+  color:#DDD;
+  text-decoration:none;
+  transition:0.4s;
+}
